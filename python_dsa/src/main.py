@@ -7,7 +7,7 @@ from  xcollections import XList, XLinkedList, XStack, XQueue, XDictionary, XLDic
 log = logging.getLogger(f"{__name__}.dsa_test")
 
 ### List example
-def listExample():
+def list_example():
     print('## List Example ##')
     xlist = XList()
     xlist.append(1)
@@ -29,9 +29,9 @@ def listExample():
     del xlist[-1]
     print(xlist)
 
-### LinkedList example
+### Linked List example
 
-def linkedListExample():
+def linked_list_example():
     xll = XLinkedList()
     xll.insert_head(5)
     xll.insert_head(4)
@@ -47,11 +47,11 @@ def linkedListExample():
 
 ## Stack Example ##
 
-def stackExample():
+def stack_example():
     print('## Stack Example ##')
 
     xstack = XStack()
-    print(xstack.isempty)
+    print(xstack.is_empty())
     xstack.push(1)
     print(f"Size {xstack.size()}")
     xstack.push(2)
@@ -83,7 +83,7 @@ def stackExample():
 
 ## Queue Examples
 
-def queue():
+def queue_example():
     print('## Queue ##')
     xq = XQueue()
     xq.add(1)
@@ -96,7 +96,7 @@ def queue():
 
 ## Dictionary Examples
 
-def dictionaryExample():
+def dictionary_example():
     print('## Dictionary ##')
 
     dl = XDictionary(4)
@@ -129,11 +129,11 @@ def dictionaryExample():
 def main():
     
     start_time = time.time()
-    listExample()
-    linkedListExample()
-    stackExample()
-    queue()
-    dictionaryExample()
+    list_example()
+    linked_list_example()
+    stack_example()
+    queue_example()
+    dictionary_example()
     print(time.time() - start_time)
     log.warning(time.time() - start_time)
 

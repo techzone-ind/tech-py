@@ -1,4 +1,8 @@
-
+# -----------------------------------------------------------------------------
+# Script Name: XStack.py
+# Author:      Animesh Sinha
+# Description: Stack linked list implementation.
+# -- 
 class Node:
 
     def __init__(self,value):
@@ -6,12 +10,14 @@ class Node:
         self.next = None
 
 class XStack:
+    """Stack linked list based data structure
+        """
 
     def __init__(self):
         self.top = None
         self.n = 0
 
-    def isempty(self):
+    def is_empty(self):
         return self.top == None
 
     def push(self,value):
@@ -30,7 +36,7 @@ class XStack:
         return result
     
     def peek(self):
-        if self.isempty():
+        if self.is_empty():
             return "Empty Stack"
         else:
             return self.top.data

@@ -1,5 +1,12 @@
 
+# -----------------------------------------------------------------------------
+# Script Name: XDictionary.py
+# Author:      Animesh Sinha
+# Description: Dictionary array bucket implementation.
+# --
 class XDictionary:
+    """Performs array bucket implementation
+        """
 
     def __init__(self, size):
         self.size = size

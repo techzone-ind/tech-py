@@ -1,4 +1,8 @@
- 
+# -----------------------------------------------------------------------------
+# Script Name: XQueue.py
+# Author:      Animesh Sinha
+# Description: Queue linked list implementation.
+# -- 
 
 class Node:
 
@@ -7,6 +11,8 @@ class Node:
         self.next = None
 
 class XQueue:
+    """Queue linked list based data structure
+        """
 
     def __init__(self):
         self.rear = None

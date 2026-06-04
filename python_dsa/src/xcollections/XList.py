@@ -1,6 +1,15 @@
+# -----------------------------------------------------------------------------
+# Script Name: XList.py
+# Author:      Animesh Sinha
+# Description: List array implementation.
+# -- 
+
+# imports
 import ctypes
 
 class XList:
+    """List array based data structure
+        """
     
     def __init__(self):
         self.size = 1

@@ -1,3 +1,8 @@
+# -----------------------------------------------------------------------------
+# Script Name: XLinkedList.py
+# Author:      Animesh Sinha
+# Description: Linked List data structure implementation.
+# --
 
 class Node:
 
@@ -7,6 +12,8 @@ class Node:
 
 
 class XLinkedList:
+    """Linked List data structure
+        """
 
     def __init__(self):
         self.head =None

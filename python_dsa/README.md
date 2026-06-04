@@ -8,4 +8,4 @@
 	    |- main.py - Programe entry  
 ```
 
-### To run this programe run main.py from src
+### To run this program run main.py from src

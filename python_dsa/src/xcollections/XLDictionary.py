@@ -1,4 +1,9 @@
 
+# -----------------------------------------------------------------------------
+# Script Name: XLDictionary.py
+# Author:      Animesh Sinha
+# Description: Dictionary bucket linked list implementation.
+# --
 
 class Node:
 
