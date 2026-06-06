@@ -5,6 +5,9 @@
 	|  
 	|- src    
 	    |- main.py - Programe entry  
+            |- routers/ - Routes for endpoints   
+            |- services/ - Business Logic and DAO layer calls   
+
 ```
 
 ### To run this program run below command from the project root directory   
