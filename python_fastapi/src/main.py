@@ -8,9 +8,13 @@
 # Lib imports
 from fastapi import FastAPI
 
+from fastapi.middleware.cors import CORSMiddleware
+from .middleware.token_processor_middleware import TokenProcessorMiddleware
 from .routers import  users
 
 app = FastAPI(title="FastAPI demo");
+
+app.add_middleware(TokenProcessorMiddleware)
 
 app.include_router(users.router)
 

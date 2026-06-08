@@ -10,6 +10,11 @@ async def save_users(user: User):
 
 async def find_user_by_username(username: str):
     for user in users:
-        print(user)
         if user['username'] == username:
             return user
+        
+async def find_user_by_email(email: str):
+    for user in users:
+        if user['email'] == email:
+            return user
+    
