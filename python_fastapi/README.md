@@ -9,7 +9,9 @@
             |- services/ - Business Logic and DAO layer calls   
             |- model -  pydentic models   
             |- dependencies - Dependencies for routes    
-            |- middleware - Custom middleware     
+            |- middleware - Custom middleware   
+            |- tests - Test files    
+            
 
 ```
 
