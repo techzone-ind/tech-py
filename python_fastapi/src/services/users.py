@@ -6,7 +6,8 @@ async def get_users():
     return users
 
 async def save_users(user: User):
-    return users.append(user)
+     users.append(user)
+     return user
 
 async def find_user_by_username(username: str):
     for user in users:
