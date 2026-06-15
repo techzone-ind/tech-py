@@ -3,15 +3,17 @@
 ```
 |-python_fastapi - A simple project to create Rest API with FastAPI   
 	|  
-	|- src    
+	|- src/    
 	    |- main.py - Programe entry  
             |- routers/ - Routes for endpoints   
             |- services/ - Business Logic and DAO layer calls   
-            |- model -  pydentic models   
-            |- dependencies - Dependencies for routes    
-            |- middleware - Custom middleware   
-            |- tests - Test files    
+            |- model/ -  pydentic models   
+            |- dependencies/ - Dependencies for routes    
+            |- middleware/ - Custom middleware     
+    |- static/ - Static files     
+    |- tests/ - Test files     
             
+                        
 
 ```
 
